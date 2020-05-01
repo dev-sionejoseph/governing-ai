@@ -3,6 +3,7 @@ import './App.css';
 
 import ScrollIntoView from 'react-scroll-into-view';
 
+
 import MSimg from './assets/Micriosoft-HRIA-circle.png';
 import trumpImg from './assets/trump-facebook-circle.png';
 import ggimg from './assets/Google-Maven-circle.png';
