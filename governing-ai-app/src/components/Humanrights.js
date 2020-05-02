@@ -9,6 +9,7 @@ function Humanrights ()
     return(
 
         <div className="d1"> 
+        <h2 >  A Humanrights for AI risks and Harms</h2>
         <div className="d2">
     
       <img className="i1" src = {img1} alt='Human rights'/>
