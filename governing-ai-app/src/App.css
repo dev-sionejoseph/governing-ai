@@ -2,67 +2,97 @@
   text-align: center;
 }
 
-.nav-map {
+#nav-map {
   position: relative;
   width: 100%;
   height: 500px;
 }
 
-.menu-background {
-  width: 100%;
-  height: 100%;
-}
+  .menu-background {
+    width: 100%;
+    height: 100%;
+  }
 
-#nav-img1, #nav-img2, #nav-img3, #nav-img4, #nav-img5, #nav-img6, #nav-img7, #nav-img8 {
-  border-radius: 50%;
-  border: solid 5px white;
+  #nav-img1, #nav-img2, #nav-img3, #nav-img4, #nav-img5, #nav-img6, #nav-img7, #nav-img8 {
+    border-radius: 50%;
+    border: solid 5px white;
 
-  animation: size-cycling 6s infinite ease-in-out;
-}
+    animation: size-cycling 6s infinite ease-in-out;
+  }
 
-#nav-img1 {
-  position: absolute;
-  top: 10%;
-  left: 10%; 
-}
-#nav-img2 {
-  position: absolute;
-  top: 50%;
-  left: 30%; 
-}
-#nav-img3 {
-  position: absolute;
-  top: 70%;
-  left: 20%; 
-}
-#nav-img4 {
-  position: absolute;
-  top: 40%;
-  left: 45%; 
-}
-#nav-img5 {
-  position: absolute;
-  top: 65%;
-  left: 65%; 
-}
-#nav-img6 {
-  position: absolute;
-  top: 20%;
-  left: 75%; 
-}
-#nav-img7 {
-  position: absolute;
-  top: 45%;
-  left: 80%; 
-}
-#nav-img8 {
-  position: absolute;
-  top: 64%;
-  left: 85%; 
-}
+  #nav-img1-box {
+    position: absolute;
+    top: 15%;
+    left: 10%; 
+  }
+  #nav-img2-box {
+    position: absolute;
+    top: 50%;
+    left: 30%; 
+  }
+  #nav-img3-box {
+    position: absolute;
+    top: 70%;
+    left: 20%; 
+  }
+  #nav-img4-box {
+    position: absolute;
+    top: 40%;
+    left: 45%; 
+  }
+  #nav-img5-box {
+    position: absolute;
+    top: 65%;
+    left: 65%; 
+  }
+  #nav-img6-box {
+    position: absolute;
+    top: 20%;
+    left: 75%; 
+  }
+  #nav-img7-box {
+    position: absolute;
+    top: 45%;
+    left: 80%; 
+  }
+  #nav-img8-box {
+    position: absolute;
+    top: 64%;
+    left: 85%; 
+  }
 
-@keyframes size-cycling {
-  0%   { width: 50px; }
-  50%  { width: 60px; }
-  100% { width: 50px; }
-}
+  @keyframes size-cycling {
+    0%   { width: 50px; }
+    50%  { width: 60px; }
+    100% { width: 50px; }
+  }
+
+  .nav-label {
+    color: white;
+    font-size: 14px;
+    margin-top: -5px;
+  }
+
+  #back-to-map-icon {
+    width: 50px;
+    height: 50px;
+
+    position: fixed;
+    bottom: 130px;
+    left: 20px;
+  }
+
+  .article-summary-box {
+    width: 100%;
+    margin-top: -80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .article-summary {
+    width: 60%;
+    height: 20%;
+
+    color: white;
+  }
