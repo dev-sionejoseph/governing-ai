@@ -4,6 +4,8 @@ import './App.css';
 import ScrollIntoView from 'react-scroll-into-view';
 
 import connectedLines from './assets/3d-connected-dots.png';
+import brainCloud from './assets/brain-cloud.gif'
+
 import map1 from './assets/map1-face.png';
 import map2 from './assets/map2-camera.png';
 import map3 from './assets/map3-robot.jpg';
@@ -25,7 +27,7 @@ function App() {
 
       <div id="nav-map">
         
-        <img className="menu-background"  src={connectedLines} />
+        <img className="menu-background"  src={brainCloud} />
 
           <div id="nav-img1-box">
             <ScrollIntoView selector="#stakeholder-selector">

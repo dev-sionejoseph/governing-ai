@@ -5,7 +5,7 @@
 #nav-map {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
   .menu-background {
@@ -22,7 +22,7 @@
 
   #nav-img1-box {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 10%; 
   }
   #nav-img2-box {
@@ -47,7 +47,7 @@
   }
   #nav-img6-box {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 75%; 
   }
   #nav-img7-box {

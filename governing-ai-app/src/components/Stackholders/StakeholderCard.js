@@ -44,7 +44,7 @@ export default class StackholderCard extends Component{
                                 src={card.image} 
                                 onMouseLeave={this.handleMouseOut}
                                 width="330px" height="330px" />
-                        </Zoom> )
+                      </Zoom> )
                     :
                     ( <img className="stakeholder-img" src={card.image} onMouseEnter={this.handleMouseIn}  width="300px" height="300px"
                     /> )
