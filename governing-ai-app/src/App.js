@@ -37,11 +37,7 @@ function App() {
       </div>
 
 
-      <div id="stakeholder-selector">
-        <br /><br /><br /><br /><br />
-      </div>
-
-
+      <div id="stakeholder-selector"></div>
       <Stakeholders stakeHolders={stakeHolders} />
     </div>
   );
