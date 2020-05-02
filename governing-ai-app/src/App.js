@@ -3,7 +3,6 @@ import './App.css';
 
 import ScrollIntoView from 'react-scroll-into-view';
 
-import connectedLines from './assets/3d-connected-dots.png';
 import brainCloud from './assets/brain-cloud.gif'
 
 import map1 from './assets/map1-face.png';
