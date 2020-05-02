@@ -1,4 +1,16 @@
 .App {
   text-align: center;
 }
+h3 {
+  text-align: center;
+}
+
+.img2 {
+  display: flex;
+}
+.d3 {
+  
+  margin-top: 50px;
+}
+
 
