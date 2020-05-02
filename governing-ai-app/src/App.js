@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from './Components/Footer';
-import Slide from './Components/Slide';
+import Footer from './components/Footer';
+import Slide from './components/Slide';
 import './App.css';
 import Introduction from './components/Introduction';
 import BridgingRights from './components/BridgingRights';
