@@ -1,4 +1,74 @@
 .App {
   text-align: center;
 }
+body{
+  margin:0;
+  padding:0;
+  height:100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* Footer */
+.signBelow {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
 
+#signText{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.submissions{
+  display: flex;
+  justify-content: center;
+}
+.footerParent {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:100px;
+}
+.footerButton{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  outline: none;
+}
+.footerButton:hover {background-color: #3e8e41}
+
+.footerButton:active {
+  background-color: #3e8e41;
+  transform: translateY(0.5px);
+}
+
+.footerInput{
+  outline: none;
+}
+
+
+#containerWrap{
+padding-top: 18%;
+  }
+
+.firstPar{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.contCont{
+  /* border-radius: 5px;
+  box-shadow: 0px 0px 1px;
+  margin: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 60%;
+}
