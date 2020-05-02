@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Introduction from './components/Introduction';
+import BridgingRights from './components/BridgingRights';
+
 
 function App() {
   return (
     <div className="App">
-      .
+      <Introduction />
+      <BridgingRights />
     </div>
   );
 }
