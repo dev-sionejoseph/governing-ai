@@ -1,17 +1,11 @@
 import React from 'react';
-<<<<<<< HEAD
 import Footer from './Components/Footer';
 import Slide from './Components/Slide';
 import './App.css';
-
-
-=======
-import './App.css';
-
+import Introduction from './components/Introduction';
+import BridgingRights from './components/BridgingRights';
 import ScrollIntoView from 'react-scroll-into-view';
-
 import brainCloud from './assets/brain-cloud.gif'
-
 import map1 from './assets/map1-face.png';
 import map2 from './assets/map2-camera.png';
 import map3 from './assets/map3-robot.jpg';
@@ -21,26 +15,20 @@ import map6 from './assets/map6-trump.png';
 import map7 from './assets/map7-facebook.png';
 import map8 from './assets/map8-human-car.png';
 import upArrow from './assets/up-arrow.png';
-
 import Stakeholders from './components/Stackholders/Stakeholders';
->>>>>>> f80e36a135c2d2d0749bd8503705a3272b808100
 
 function App() {
 
   let stakeHolders = JSON.stringify(Stakeholders);
 
   return (
-<<<<<<< HEAD
     <div className= "wrapper">
       <div>
       <Slide />
       </div>
       <Footer />
-=======
     <div className="App">
-
       <div id="nav-map">
-        
         <img className="menu-background"  src={brainCloud} />
 
           <div id="nav-img1-box">
@@ -112,7 +100,9 @@ function App() {
 
       <div id="stakeholder-selector"></div>
       <Stakeholders stakeHolders={stakeHolders} />
->>>>>>> f80e36a135c2d2d0749bd8503705a3272b808100
+    </div>
+      <Introduction />
+      <BridgingRights />
     </div>
   );
 }

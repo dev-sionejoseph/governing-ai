@@ -41,7 +41,6 @@ body{
 }
 .footerButton:hover {background-color: #3e8e41}
 
-<<<<<<< HEAD
 .footerButton:active {
   background-color: #3e8e41;
   transform: translateY(0.5px);
@@ -165,7 +164,61 @@ padding-top: 18%;
   .article-summary {
     width: 60%;
     height: 20%;
-
     color: white;
   }
->>>>>>> f80e36a135c2d2d0749bd8503705a3272b808100
+
+/* Sione's CSS begins */
+#introduction-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introduction-wrap h1{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 0;
+}
+
+#introduction-wrap h3{
+  color: forestgreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 0;
+  width: 50%;
+}
+
+#head-image-wrap img{
+  border-radius: 50%;
+  height: 500px;
+  margin: 30px;
+}
+#summary-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word-blocks{
+  width: 50%;
+}
+
+#quote-one{
+  width: 50%;
+}
+
+.center-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  min-width: 500px;
+  max-width: 50vw; 
+}
+
+#ai-engineers {
+  width: 50vw;
+}
+ /* Sione's CSS ends */
+
