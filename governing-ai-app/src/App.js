@@ -22,34 +22,29 @@ function App() {
   let stakeHolders = JSON.stringify(Stakeholders);
 
   return (
-    <div className= "wrapper">
-      <div>
-      <Slide />
-      </div>
-      <Footer />
     <div className="App">
       <div id="nav-map">
         <img className="menu-background"  src={brainCloud} />
 
           <div id="nav-img1-box">
-            <ScrollIntoView selector="#stakeholder-selector">
+            <ScrollIntoView selector="#introduction-selector">
               <input type="image" id="nav-img1"  src={map1} />
             </ScrollIntoView>
-            <p className="nav-label">Label 1</p>
+            <p className="nav-label">Introduction</p>
           </div>
 
           <div id="nav-img2-box">
-            <ScrollIntoView selector="#stakeholder-selector">
+            <ScrollIntoView selector="#bridging-rights-selector">
               <input type="image" id="nav-img2"  src={map2} />
             </ScrollIntoView>
-            <p className="nav-label">Label 2</p>
+            <p className="nav-label">Bridging AI and Human Rights</p>
           </div>
           
           <div id="nav-img3-box">
-            <ScrollIntoView selector="#stakeholder-selector">
+            <ScrollIntoView selector="#slide-selector">
              <input type="image" id="nav-img3"  src={map3} />
             </ScrollIntoView>
-            <p className="nav-label">Label 3</p>
+            <p className="nav-label">Quick Facts</p>
           </div>
 
           <div id="nav-img4-box">
@@ -97,12 +92,20 @@ function App() {
 
       </div>
 
+      <div id="introduction-selector"></div>
+      <Introduction />
 
+      <div id="bridging-rights-selector"></div>
+      <BridgingRights />
+      
       <div id="stakeholder-selector"></div>
       <Stakeholders stakeHolders={stakeHolders} />
-    </div>
-      <Introduction />
-      <BridgingRights />
+
+      <div id="slide-selector">
+        <h2 id="slide-title">Quick Facts</h2>
+        <Slide />
+        <Footer />
+      </div>
     </div>
   );
 }
