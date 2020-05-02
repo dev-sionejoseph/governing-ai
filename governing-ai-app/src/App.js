@@ -27,7 +27,6 @@ function App() {
       <Slide />
       </div>
       <Footer />
-=======
     <div className="App">
       <div id="nav-map">
         <img className="menu-background"  src={brainCloud} />
@@ -101,6 +100,7 @@ function App() {
 
       <div id="stakeholder-selector"></div>
       <Stakeholders stakeHolders={stakeHolders} />
+    </div>
       <Introduction />
       <BridgingRights />
     </div>
