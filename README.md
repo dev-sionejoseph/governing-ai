@@ -15,7 +15,9 @@
 ![wireframe](./wireframe/Footer.png)
 # 
 # Technologies used
-### react-scroll-into-view,  react-medium-image-zoom,  react-slick
+### react-scroll-into-view
+### react-medium-image-zoom
+### react-slick
 # 
 # User engagement elements
 ### Nav Map button animations (and blue up arrow) and Brain background
@@ -23,6 +25,6 @@
 # 
 # Division of work
 ### Sione: Introduction component, BridgingRights component, Github owner
-### Kim: Nav Map (in App.js) Stakeholders component
+### Kim: Nav Map (in App.js), Stakeholders component
 ### Daniel: Slide component, Footer component
 ### Aparna: Wireframe, HumanRight component
