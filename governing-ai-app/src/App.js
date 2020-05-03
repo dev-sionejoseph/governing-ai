@@ -47,39 +47,11 @@ function App() {
             <p className="nav-label">Quick Facts</p>
           </div>
 
-          <div id="nav-img4-box">
-            <ScrollIntoView selector="#stakeholder-selector">
-              <input type="image" id="nav-img4"  src={map4} />
-            </ScrollIntoView>
-            <p className="nav-label">Label 4</p>
-          </div>
-
-          <div id="nav-img5-box">
-            <ScrollIntoView selector="#stakeholder-selector">
-              <input type="image" id="nav-img5"  src={map5} />
-            </ScrollIntoView>
-            <p className="nav-label">Label 5</p>
-          </div>
-
           <div id="nav-img6-box">
             <ScrollIntoView selector="#stakeholder-selector">
               <input type="image" id="nav-img6"  src={map6} />
             </ScrollIntoView>
             <p className="nav-label">Stakeholders</p>
-          </div>
-
-          <div id="nav-img7-box">
-            <ScrollIntoView selector="#stakeholder-selector">
-             <input type="image" id="nav-img7"  src={map7} />
-            </ScrollIntoView>
-            <p className="nav-label">Label 7</p>
-          </div>
-
-          <div id="nav-img8-box">
-            <ScrollIntoView selector="#stakeholder-selector">
-              <input type="image" id="nav-img8"  src={map8} />
-            </ScrollIntoView>
-            <p className="nav-label">Label 5</p>
           </div>
 
         <div className="article-summary-box">
