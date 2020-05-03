@@ -18,7 +18,7 @@
 ### react-scroll-into-view,  react-medium-image-zoom,  react-slick
 # 
 # User engagement elements
-### Nav Map button animations and Brain background
+### Nav Map button animations (and blue up arrow) and Brain background
 ### Gifs: Brain background in Nav Map (in App.js). Brain circuit in Introduction component
 # 
 # Division of work
