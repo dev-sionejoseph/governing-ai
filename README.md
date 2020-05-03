@@ -16,7 +16,6 @@
 # 
 # Technologies used
 ### react-scroll-into-view,  react-medium-image-zoom,  react-slick
-### React-chart and chart.js package used for bar graph
 # 
 # User engagement elements
 ### Nav Map button animations and Brain background
