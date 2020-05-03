@@ -16,6 +16,7 @@ import map7 from './assets/map7-facebook.png';
 import map8 from './assets/map8-human-car.png';
 import upArrow from './assets/up-arrow.png';
 import Stakeholders from './components/Stackholders/Stakeholders';
+import Humanrights from './components/Humanrights';
 
 function App() {
 
@@ -69,10 +70,12 @@ function App() {
 
       <div id="bridging-rights-selector"></div>
       <BridgingRights />
-      
+
       <div id="stakeholder-selector"></div>
       <Stakeholders stakeHolders={stakeHolders} />
-
+      <div>
+               <Humanrights />
+            </div>
       <div id="slide-selector">
         <h2 id="slide-title">Quick Facts</h2>
         <Slide />
