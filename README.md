@@ -15,13 +15,16 @@
 ![wireframe](./wireframe/Footer.png)
 # 
 # Technologies used
-### react-scroll-into-view
-### react-medium-image-zoom
-### react-slick
+###   react-scroll-into-view
+###   react-medium-image-zoom
+###   react-slick
 # 
 # User engagement elements
-### Nav Map button animations (and blue up arrow) and Brain background
-### Gifs: Brain background in Nav Map (in App.js). Brain circuit in Introduction component
+### Nav Map - button animations (and blue up arrow) and Brain background
+### Stakeholders - component mouse over images shows summary text underneath.
+### Gifs:
+###   Brain background in Nav Map (in App.js)
+###   Brain circuit in Introduction component
 # 
 # Division of work
 ### Sione: Introduction component, BridgingRights component, Github owner
