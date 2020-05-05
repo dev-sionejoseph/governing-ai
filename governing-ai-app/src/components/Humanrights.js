@@ -1,26 +1,33 @@
 import React from 'react';
 import img2 from '../assets/images/Pros-and-Cons-of-Artificial-Intelligence-1280x720.jpg';
-import img1 from '../assets/images/5-Dangers-of-Artificial-Intelligence-in-the-Future.png';
+import img1 from '../assets/images/IWD2015Banner_Panama_UNWomen_675x313.jpg';
 
 
 
-function Humanrights ()
-{
-    return(
+function Humanrights() {
+  return (
 
-        <div className="d1"> 
-        <h2  className="main_header">  A Humanrights for AI risks and Harms</h2>
-        <div className="d2">
-    
-      <img className="i1" src = {img1} alt='Human rights'/>
+    <div className="d1" >
+      <h1 className="main_header">  Humanrights for AI </h1>
+      <div className="flip-box">
+        <div className="flip-box-inner">
+          <div className="flip-box-front">
+            <img className="img1" src={img1} alt='Human rights' />
+          </div>
+          <div className="flip-box-back">
+          <p>
+            "No one born from hating another person beacuse of the color of his skin,or his background,or his religion.people must learn to hate,and if they can be taught to love,for love comes more naturally to the human heart than its possible."
+            <br></br>
+            
+            .....Nelson mandela ...
+          </p>
         </div>
-        <div className="d3">
-        <img className="i2" src = {img2} alt='Human rights'/>  
-        </div>
+      </div>
 
-        </div>
+     </div>
+    </div>
 
-    )
+  )
 }
 
 
