@@ -48,6 +48,13 @@ function App() {
             <p className="nav-label">Quick Facts</p>
           </div>
 
+          <div id="nav-img4-box">
+            <ScrollIntoView selector="#human-rights-selector">
+              <input type="image" id="nav-img4"  src={map4} />
+            </ScrollIntoView>
+            <p className="nav-label">Human Rights</p>
+          </div>
+
           <div id="nav-img6-box">
             <ScrollIntoView selector="#stakeholder-selector">
               <input type="image" id="nav-img6"  src={map6} />
@@ -73,9 +80,10 @@ function App() {
 
       <div id="stakeholder-selector"></div>
       <Stakeholders stakeHolders={stakeHolders} />
-      <div>
-               <Humanrights />
-            </div>
+      <div id="human-rights-selector"></div>
+          <div>
+              <Humanrights />
+          </div>
       <div id="slide-selector">
         <h2 id="slide-title">Quick Facts</h2>
         <Slide />
